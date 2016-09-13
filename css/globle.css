@@ -1,0 +1,78 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: #333;
+	height: 100%;
+    width: 100%;
+    font-family: "Segoe UI",Segoe,Tahoma,Arial,Verdana,sans-serif;
+}
+#bgDiv {
+	background-image: url('../img/GFLions_ZH-CN10964337001_1920x1080.jpg');
+	background-repeat: round;
+	width: 1280px;
+	height: 630px;
+	top: 44px;
+	position: absolute;
+}
+#sbox {
+	height: 45px;
+	position: absolute;
+    top: 20%;
+    left: 8%;
+    width: 1028px;
+    margin: 0;
+    z-index: 9;
+}
+#sbox img {
+	float: left;
+}
+#sinput {
+	padding: 0 4px 0 0;
+	background-color: #fff;
+    margin: 6px 0 0 9px;
+    width: 487px;
+    border-right: 0;
+    /* padding-right: 4px; */
+    border: none;
+    outline: none;
+    line-height: 45px;
+    height: 45px;
+    float: left;
+    font: inherit;
+    font-size: 25px;
+    font-family: "Segoe UI",Segoe,Tahoma,Arial,Verdana,sans-serif
+}
+#sbtn {
+	background: #0c8484 url('../img/hpc18.png') no-repeat;
+    background-position: -169px -63px;
+    overflow: hidden;
+    border: 8px solid #0c8484;
+    height: 45px;
+    width: 45px;
+    float: left;
+    margin: 6px 1px 0 0;
+}
+#ssuggest {
+    width: 534px;
+    background-color: #FFF;
+    position: absolute;
+    top: 50px;
+    left: 116px;
+    border: 1px solid #E5E5E5;
+    display: none;
+}
+#ssuggest ul {
+    padding: 0;
+    margin: 0;
+}
+#ssuggest ul li {
+    list-style: none;
+    padding: 5px 5px;
+    cursor: pointer;
+    height: 31px;
+    font-size: 20px;
+}
+#ssuggest ul li:hover {
+    background-color: #E5E5E5;
+    text-decoration: underline;
+}
